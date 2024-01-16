@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-size: 16px;
+}
+body header {
+  background-color: #444;
+  color: #fff;
+  height: 195px;
+}
+body header nav {
+  display: flex;
+}
+body header nav div {
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 20px 2px 0px 16px;
+}
+body header section {
+  margin-left: 15px;
+}
+body main {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin: 10px 0px;
+}
+body main .menu {
+  display: flex;
+  flex-direction: column;
+}
+body main .menu span {
+  border-bottom: 1px solid #444;
+  margin: 5px 15px 0px 10px;
+  padding: 7px;
+}
+body main .content .card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+body main .content .card div {
+  background-color: teal;
+  color: #fff;
+  padding: 50px;
+  font-size: 1.5em;
+  margin: 10px;
+  text-align: center;
+}
+body footer {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
